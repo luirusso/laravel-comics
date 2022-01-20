@@ -6,10 +6,11 @@
     <main>
         <div class="container">
             <div class="cards-comics d-flex flex-wrap pt-5 pb-4">
-                @foreach ($comics as $comic)
+                {{-- PRINT COMIC CARDS --}}
+                @foreach ($comics as $index => $comic)
                     <div class="card-site">
                         <div class="card-image">
-                            <a href="">
+                            <a href="{{ route('comic-detail', ['id' => $index]) }}">
                                 <img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
                             </a>
                         </div>

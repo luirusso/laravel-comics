@@ -114,3 +114,7 @@ footer button:hover {
 .socials-container ul li {
   padding: 0 10px;
 }
+
+.container.details {
+  max-width: 1000px;
+}

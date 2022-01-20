@@ -1,7 +1,8 @@
 <header>
     <nav class="py-3">
         <div class="container d-flex align-items-center">
-            <a href="">
+            <a href="{{ route('home') }}" @if (Request::route()->getName() === 'home') class="active"
+                @endif>
                 <img class="main-logo" src="{{ asset('img/dc-logo.png') }}" alt="">
             </a>
     

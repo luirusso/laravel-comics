@@ -23,6 +23,25 @@ Route::get('/', function () {
     ]);
 })->name('home');
 
+// COMIC DETAIL (route with parameter)
+Route::get('/comic/{id}', function ($id){
+    $comics = config('comics-data');
+    dump($comics, $id);
+
+    // Check on id
+
+    if(is_numeric($id) && $id >= 0 && $id < count($comics)) {
+        $comic = $comics[$id];
+        dump($comic);
+    } else {
+        abort(404);
+    }
+
+    return view('comic-detail', [
+        'comic' => $comic,
+    ]);
+})->name('comic-detail');
+
 // NEWS
 Route::get('/news', function () {
     return view('news');
