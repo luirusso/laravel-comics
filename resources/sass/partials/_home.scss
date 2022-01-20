@@ -25,3 +25,19 @@ main {
         }
     }
 }
+
+.load-btn {
+    width: 10%;
+    margin: 0 auto;
+    background-color: $primary-col;
+    border: 2px solid transparent;
+    transition: all 0.4s ease-in-out;
+    font-family: $main-font;
+    color: white;
+    &:hover {
+        cursor: pointer;
+        background-color: transparent;
+        border: 2px solid $primary-col;
+        color: $primary-col;
+    }
+}

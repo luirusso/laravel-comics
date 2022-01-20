@@ -5,7 +5,7 @@
 @section('main-content')
     <main>
         <div class="container">
-            <div class="cards-comics d-flex flex-wrap py-5">
+            <div class="cards-comics d-flex flex-wrap pt-5 pb-4">
                 @foreach ($comics as $comic)
                     <div class="card-site">
                         <div class="card-image">
@@ -22,6 +22,12 @@
                     </div>
                 @endforeach
             </div>
+        </div>
+
+        <div class="pb-3">
+            <button class="load-btn d-flex justify-content-center fw-bold fs-4">
+                LOAD MORE
+            </button>
         </div>
     </main>
 @endsection
