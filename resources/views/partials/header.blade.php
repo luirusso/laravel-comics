@@ -7,12 +7,12 @@
     
             <ul class="main-navigation d-flex align-items-center fw-bold fs-4">
                 <li class="mx-5">
-                    <a href="">
+                    <a href="/">
                         COMICS
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="/news">
                         NEWS
                     </a>
                 </li>

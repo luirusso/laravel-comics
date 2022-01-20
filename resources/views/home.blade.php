@@ -10,13 +10,13 @@
                     <div class="card-site">
                         <div class="card-image">
                             <a href="">
-                                <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}">
+                                <img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
                             </a>
                         </div>
 
                         <div class="card-text pt-3 pb-5">
                             <a href="">
-                                {{ $comic['title'] }}
+                                {{ $comic['series'] }}
                             </a>
                         </div>
                     </div>
