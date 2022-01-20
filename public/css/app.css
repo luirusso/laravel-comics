@@ -29,6 +29,10 @@ header {
   border-bottom: 3px solid #0182F9;
 }
 
+main {
+  background-color: #1f1f1f;
+}
+
 .footer-color-bar {
   height: 20px;
   background-color: #0182F9;

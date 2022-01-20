@@ -3,7 +3,7 @@
 </div>
 
 <footer>
-    <div class="container d-flex justify-content-between py-5">
+    <div class="container d-flex justify-content-between py-4">
         <div>
             <button class="d-flex align-items-center justify-content-center fw-bold">
                 SIGN UP NOW!
