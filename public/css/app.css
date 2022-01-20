@@ -1,0 +1,51 @@
+body a {
+  text-decoration: none;
+}
+
+header {
+  height: 110px;
+}
+
+.main-logo {
+  max-width: 80px;
+}
+
+.main-navigation {
+  list-style: none;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+.main-navigation li {
+  height: 100%;
+  color: #0182F9;
+  border-bottom: 3px solid transparent;
+}
+.main-navigation li:hover {
+  border-bottom: 3px solid #0182F9;
+}
+
+.footer-color-bar {
+  height: 20px;
+  background-color: #0182F9;
+}
+
+footer {
+  background-color: #303030;
+}
+footer button {
+  height: 50px;
+  width: 170px;
+  border: 2px solid #0282f9;
+  background: transparent;
+  color: white;
+  transition: background 0.3s;
+  transition: box-shadow 0.3s;
+}
+footer button:hover {
+  cursor: pointer;
+  background: #0282f9;
+  color: #303030;
+  box-shadow: 3px 3px 7px 0px black;
+}

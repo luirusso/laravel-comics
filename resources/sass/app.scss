@@ -1,3 +1,11 @@
-//
+// APP MAIN STYLES
 
-@import "./partials/vars"
+body {
+    a {
+        text-decoration: none;
+    }
+}
+
+@import "./partials/vars";
+@import "./partials/header";
+@import "./partials/footer";
