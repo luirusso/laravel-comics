@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
+@section('head-title', 'Home | DC COMICS')
+
 @section('main-content')
-    <h1>HOMEPAGE</h1>
+    <h1>Home</h1>
 @endsection
