@@ -7,12 +7,14 @@
     
             <ul class="main-navigation d-flex align-items-center fw-bold fs-4">
                 <li class="mx-5">
-                    <a href="/">
+                    <a href="{{ route('home') }}" @if (Request::route()->getName() === 'home') class="active"
+                        @endif>
                         COMICS
                     </a>
                 </li>
                 <li>
-                    <a href="/news">
+                    <a href="{{ route('news') }}"  @if (Request::route()->getName() === 'news') class="active"
+                        @endif>
                         NEWS
                     </a>
                 </li>

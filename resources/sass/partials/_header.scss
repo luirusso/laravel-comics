@@ -13,12 +13,24 @@ header {
     font-family: $main-font;
     li {
         height: 100%;
-        color: $primary-col;
-        border-bottom: 3px solid transparent;
         transition: all 0.4s ease-in-out;
-        &:hover {
-            border-bottom: 3px solid $primary-col;
+        a {
+            color: rgb(88, 88, 88);
+            border-bottom: 5px solid transparent;
+            transition: all 0.4s ease-in-out;
+            &:hover {
+                color: $primary-col;
+                border-bottom: 5px solid $primary-col;
+            }
         }
     }
 }
 
+.main-navigation {
+    li {
+        a.active {
+            color: $primary-col;
+            border-bottom: 5px solid $primary-col;
+        }
+    }
+}

@@ -22,12 +22,21 @@ header {
 }
 .main-navigation li {
   height: 100%;
-  color: #0182F9;
-  border-bottom: 3px solid transparent;
   transition: all 0.4s ease-in-out;
 }
-.main-navigation li:hover {
-  border-bottom: 3px solid #0182F9;
+.main-navigation li a {
+  color: #585858;
+  border-bottom: 5px solid transparent;
+  transition: all 0.4s ease-in-out;
+}
+.main-navigation li a:hover {
+  color: #0182F9;
+  border-bottom: 5px solid #0182F9;
+}
+
+.main-navigation li a.active {
+  color: #0182F9;
+  border-bottom: 5px solid #0182F9;
 }
 
 main {
