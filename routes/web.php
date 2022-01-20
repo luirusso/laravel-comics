@@ -26,13 +26,13 @@ Route::get('/', function () {
 // COMIC DETAIL (route with parameter)
 Route::get('/comic/{id}', function ($id){
     $comics = config('comics-data');
-    dump($comics, $id);
+    // dump($comics, $id);
 
     // Check on id
 
     if(is_numeric($id) && $id >= 0 && $id < count($comics)) {
         $comic = $comics[$id];
-        dump($comic);
+        // dump($comic);
     } else {
         abort(404);
     }

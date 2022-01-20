@@ -1,3 +1,42 @@
+.jumbo {
+    height: 400px;
+    background-image: url('../img/jumbotron.jpg')
+}
+
+.detail-bar {
+    height: 80px;
+    background-color: $primary-col;
+}
+
 .container.details {
     max-width: 1000px;
+    position: relative;
+}
+
+.comic-detail-image {
+    position: absolute;
+    top: -320px;
+}
+
+.comic-detail-title {
+    text-transform: uppercase;
+    font-family: $main-font;
+    color: #103F60;
+}
+
+.comic-detail-container {
+    padding: 8rem 0;
+    color: rgb(95, 95, 95);
+}
+
+.comic-detail-price-availability {
+    height: 50px;
+    background-color: rgb(0, 206, 0);
+}
+
+.comic-detail-ad {
+    font-family: $main-font;
+    img {
+        cursor: pointer;
+    }
 }
