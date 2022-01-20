@@ -24,6 +24,7 @@ header {
   height: 100%;
   color: #0182F9;
   border-bottom: 3px solid transparent;
+  transition: all 0.4s ease-in-out;
 }
 .main-navigation li:hover {
   border-bottom: 3px solid #0182F9;
@@ -31,6 +32,30 @@ header {
 
 main {
   background-color: #1f1f1f;
+  color: white;
+}
+
+.card-site {
+  width: 16.6666666667%;
+}
+
+.card-image {
+  max-height: 190px;
+  overflow: hidden;
+}
+.card-image:hover {
+  cursor: pointer;
+}
+
+.card-text {
+  text-transform: uppercase;
+}
+.card-text a {
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+.card-text a:hover {
+  color: #0182F9;
 }
 
 .footer-color-bar {

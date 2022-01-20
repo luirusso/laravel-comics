@@ -230,5 +230,7 @@ Route::get('/', function () {
         ],
     ];
 
-    return view('home');
+    return view('home', [
+        'comics' => $comics,
+    ]);
 })->name('home');
