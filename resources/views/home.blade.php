@@ -16,7 +16,7 @@
                         </div>
 
                         <div class="card-text pt-3 pb-5">
-                            <a href="">
+                            <a href="{{ route('comic-detail', ['id' => $index]) }}">
                                 {{ $comic['series'] }}
                             </a>
                         </div>

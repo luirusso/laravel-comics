@@ -28,6 +28,7 @@ header {
   color: #585858;
   border-bottom: 5px solid transparent;
   transition: all 0.4s ease-in-out;
+  padding-bottom: 38px;
 }
 .main-navigation li a:hover {
   color: #0182F9;

@@ -13,8 +13,8 @@
         <div class="container details">
             <div class="comic-detail-image position-absolute">
                 <div class="position-relative">
-                    <div class="comic-detail-tags position-absolute px-2">
-                        COMIC BOOK
+                    <div class="comic-detail-tags text-uppercase position-absolute px-2">
+                        {{$comic['type']}}
                     </div>
                     <a href="">
                         <img src="{{ $comic['thumb'] }}" alt="">
@@ -38,7 +38,7 @@
                         <div class="d-flex justify-content-between w-100 h-100">
                             <div class="d-flex justify-content-between w-100 align-items-center">
                                 <div class="flex-grow-1 px-3">
-                                    U.S. Price: <span>$19.99</span>
+                                    U.S. Price: <span>{{ $comic['price'] }}</span>
                                 </div>
                                 <div class="px-3">
                                     AVAILABLE
