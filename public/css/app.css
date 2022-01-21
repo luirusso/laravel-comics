@@ -131,8 +131,21 @@ footer button:hover {
 }
 
 .comic-detail-image {
-  position: absolute;
   top: -320px;
+  border: 2px solid white;
+}
+
+.comic-detail-tags {
+  background-color: #01A8DC;
+  color: white;
+  font-size: 14px;
+}
+.comic-detail-tags a {
+  color: white;
+}
+
+.comic-detail-tags.view-gallery {
+  bottom: 0;
 }
 
 .comic-detail-title {
@@ -148,7 +161,11 @@ footer button:hover {
 
 .comic-detail-price-availability {
   height: 50px;
-  background-color: #00ce00;
+  background-color: #55BA5A;
+  color: rgba(255, 255, 255, 0.548);
+}
+.comic-detail-price-availability span {
+  color: white;
 }
 
 .comic-detail-ad {
@@ -156,4 +173,9 @@ footer button:hover {
 }
 .comic-detail-ad img {
   cursor: pointer;
+}
+
+.check-availability {
+  width: 45%;
+  border-left: 2px solid rgba(70, 70, 70, 0.384);
 }

@@ -14,8 +14,21 @@
 }
 
 .comic-detail-image {
-    position: absolute;
     top: -320px;
+    border: 2px solid white;
+}
+
+.comic-detail-tags {
+    background-color: #01A8DC;
+    color: $secondary-font-col;
+    font-size: 14px;
+    a {
+        color: white;
+    }
+}
+
+.comic-detail-tags.view-gallery {
+    bottom: 0;
 }
 
 .comic-detail-title {
@@ -31,7 +44,11 @@
 
 .comic-detail-price-availability {
     height: 50px;
-    background-color: rgb(0, 206, 0);
+    background-color: #55BA5A;
+    color: rgba(255, 255, 255, 0.548);
+    span {
+        color: $secondary-font-col;
+    }
 }
 
 .comic-detail-ad {
@@ -39,4 +56,9 @@
     img {
         cursor: pointer;
     }
+}
+
+.check-availability {
+    width: 45%;
+    border-left: 2px solid rgba(70, 70, 70, 0.384);
 }

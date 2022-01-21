@@ -11,10 +11,20 @@
     </div>
     <section class="comic-detail">
         <div class="container details">
-            <div class="comic-detail-image">
-                <a href="">
-                    <img src="{{ $comic['thumb'] }}" alt="">
-                </a>
+            <div class="comic-detail-image position-absolute">
+                <div class="position-relative">
+                    <div class="comic-detail-tags position-absolute px-2">
+                        COMIC BOOK
+                    </div>
+                    <a href="">
+                        <img src="{{ $comic['thumb'] }}" alt="">
+                    </a>
+                    <div class="view-gallery comic-detail-tags position-absolute w-100 text-center">
+                        <a href="">
+                            VIEW GALLERY
+                        </a>
+                    </div>
+                </div>
             </div>
 
             <div class="comic-detail-container d-flex">
@@ -24,18 +34,20 @@
                             {{ $comic['title'] }}
                         </h2>
                     </div>
-                    <div class="comic-detail-price-availability d-flex align-items-center">
-                        <div class="d-flex justify-content-between">
-                            <div class="d-flex justify-content-between">
-                                <div>
-                                    us price
+                    <div class="comic-detail-price-availability d-flex align-items-center w-100 px-2 my-3 fw-bold">
+                        <div class="d-flex justify-content-between w-100 h-100">
+                            <div class="d-flex justify-content-between w-100 align-items-center">
+                                <div class="flex-grow-1 px-3">
+                                    U.S. Price: <span>$19.99</span>
                                 </div>
-                                <div>
-                                    available
+                                <div class="px-3">
+                                    AVAILABLE
                                 </div>
                             </div>
-                            <div class="align-self-end">
-                                check
+                            <div class="check-availability d-flex align-items-center align-self-end  text-center h-100">
+                                <span class="flex-grow-1 mx-3">
+                                    Check Availability <span><i class="fas fa-caret-down"></i></span>
+                                </span>
                             </div>
                         </div>
                     </div>
